@@ -9,8 +9,8 @@
 | Parameter | Value |
 |---|---|
 | Blockchain Name | TIPMAS |
-| Token Full Name | MOLLIES |
-| Token Symbol | MOL |
+| Coin Full Name | MOLLIES |
+| Symbol | MOL |
 | Total Supply | 1,000,000,000 MOL |
 | Consensus | Clique (Proof of Authority) |
 | Network ID | 46498 |
