@@ -1,0 +1,183 @@
+{
+  "generated_at_utc": "2026-04-10T11:23:31.226272+00:00",
+  "coin_spec": {
+    "explorer_name": "BEESY Explorer",
+    "company": "BEESY",
+    "coin_name": "CAROLIES",
+    "symbol": "CARO",
+    "total_supply": "5,000,000,000 CARO",
+    "chain_id": 25910,
+    "network": "TRON",
+    "token_standard": "TRC-20"
+  },
+  "g24c_rpcs": [
+    {
+      "code": "G24C-01",
+      "company_name": "Asterion Nodeworks",
+      "rpc_url": "https://rpc01.beesy-tron.net",
+      "multiplier": 1.0,
+      "function_working_mechanism": "Primary balanced endpoint for read/write JSON-RPC flow."
+    },
+    {
+      "code": "G24C-02",
+      "company_name": "Boreal Chain Systems",
+      "rpc_url": "https://rpc02.beesy-tron.net",
+      "multiplier": 1.1,
+      "function_working_mechanism": "High-availability failover for transaction broadcasting."
+    },
+    {
+      "code": "G24C-03",
+      "company_name": "Citrine Ledger Tech",
+      "rpc_url": "https://rpc03.beesy-tron.net",
+      "multiplier": 0.95,
+      "function_working_mechanism": "Archive-backed reads for historic account and contract state."
+    },
+    {
+      "code": "G24C-04",
+      "company_name": "Delta Trust Infrastructure",
+      "rpc_url": "https://rpc04.beesy-tron.net",
+      "multiplier": 1.2,
+      "function_working_mechanism": "Low-latency regional edge endpoint for explorer UI queries."
+    },
+    {
+      "code": "G24C-05",
+      "company_name": "Everline Distributed",
+      "rpc_url": "https://rpc05.beesy-tron.net",
+      "multiplier": 1.05,
+      "function_working_mechanism": "Smart-contract event log retrieval with cached bloom filters."
+    },
+    {
+      "code": "G24C-06",
+      "company_name": "Flux Harbor Cloud",
+      "rpc_url": "https://rpc06.beesy-tron.net",
+      "multiplier": 0.9,
+      "function_working_mechanism": "Elastic backup node pool activated on traffic bursts."
+    },
+    {
+      "code": "G24C-07",
+      "company_name": "Granite RPC Labs",
+      "rpc_url": "https://rpc07.beesy-tron.net",
+      "multiplier": 1.3,
+      "function_working_mechanism": "Priority endpoint for mempool-aware pending transaction reads."
+    },
+    {
+      "code": "G24C-08",
+      "company_name": "Helios ChainOps",
+      "rpc_url": "https://rpc08.beesy-tron.net",
+      "multiplier": 1.15,
+      "function_working_mechanism": "Geo-routed endpoint optimized for wallet API calls."
+    },
+    {
+      "code": "G24C-09",
+      "company_name": "Ion Frontier Nodes",
+      "rpc_url": "https://rpc09.beesy-tron.net",
+      "multiplier": 1.0,
+      "function_working_mechanism": "General purpose request path with strict rate shaping."
+    },
+    {
+      "code": "G24C-10",
+      "company_name": "Jasper Relay Networks",
+      "rpc_url": "https://rpc10.beesy-tron.net",
+      "multiplier": 0.85,
+      "function_working_mechanism": "Cold standby route for disaster recovery replication."
+    },
+    {
+      "code": "G24C-11",
+      "company_name": "Kepler Validator Services",
+      "rpc_url": "https://rpc11.beesy-tron.net",
+      "multiplier": 1.25,
+      "function_working_mechanism": "Block ingestion endpoint for explorer index synchronization."
+    },
+    {
+      "code": "G24C-12",
+      "company_name": "Lumina Core Hosting",
+      "rpc_url": "https://rpc12.beesy-tron.net",
+      "multiplier": 1.35,
+      "function_working_mechanism": "Fast-finality path for near-real-time block tracking widgets."
+    },
+    {
+      "code": "G24C-13",
+      "company_name": "Meridian DataGrid",
+      "rpc_url": "https://rpc13.beesy-tron.net",
+      "multiplier": 0.92,
+      "function_working_mechanism": "Cost-optimized read endpoint for non-critical analytics jobs."
+    },
+    {
+      "code": "G24C-14",
+      "company_name": "Northstar Chain Fabric",
+      "rpc_url": "https://rpc14.beesy-tron.net",
+      "multiplier": 1.18,
+      "function_working_mechanism": "Heavy-query route for contract ABI decoding and traces."
+    },
+    {
+      "code": "G24C-15",
+      "company_name": "Orchid Network Engines",
+      "rpc_url": "https://rpc15.beesy-tron.net",
+      "multiplier": 1.05,
+      "function_working_mechanism": "Balanced endpoint with aggressive connection reuse."
+    },
+    {
+      "code": "G24C-16",
+      "company_name": "Prism Route Compute",
+      "rpc_url": "https://rpc16.beesy-tron.net",
+      "multiplier": 0.98,
+      "function_working_mechanism": "Redundant endpoint for scheduled crawler backfills."
+    },
+    {
+      "code": "G24C-17",
+      "company_name": "Quasar Integration Cloud",
+      "rpc_url": "https://rpc17.beesy-tron.net",
+      "multiplier": 1.22,
+      "function_working_mechanism": "Partner-facing API route with strict SLA monitoring."
+    },
+    {
+      "code": "G24C-18",
+      "company_name": "Radial Consensus Labs",
+      "rpc_url": "https://rpc18.beesy-tron.net",
+      "multiplier": 1.08,
+      "function_working_mechanism": "Secondary path for token transfer and allowance validation."
+    },
+    {
+      "code": "G24C-19",
+      "company_name": "Solace Node Matrix",
+      "rpc_url": "https://rpc19.beesy-tron.net",
+      "multiplier": 1.12,
+      "function_working_mechanism": "Read-heavy endpoint tuned for account portfolio pages."
+    },
+    {
+      "code": "G24C-20",
+      "company_name": "Titan RPC Infrastructure",
+      "rpc_url": "https://rpc20.beesy-tron.net",
+      "multiplier": 1.4,
+      "function_working_mechanism": "High-capacity batch RPC endpoint for indexer workers."
+    },
+    {
+      "code": "G24C-21",
+      "company_name": "Umbra Ledger Services",
+      "rpc_url": "https://rpc21.beesy-tron.net",
+      "multiplier": 0.88,
+      "function_working_mechanism": "Backup endpoint reserved for maintenance windows."
+    },
+    {
+      "code": "G24C-22",
+      "company_name": "Vortex Edge Compute",
+      "rpc_url": "https://rpc22.beesy-tron.net",
+      "multiplier": 1.16,
+      "function_working_mechanism": "Latency-focused route for explorer search suggestions."
+    },
+    {
+      "code": "G24C-23",
+      "company_name": "Wavefront Protocol Ops",
+      "rpc_url": "https://rpc23.beesy-tron.net",
+      "multiplier": 1.28,
+      "function_working_mechanism": "Primary endpoint for high-frequency transaction polling."
+    },
+    {
+      "code": "G24C-24",
+      "company_name": "Zenith RPC Partners",
+      "rpc_url": "https://rpc24.beesy-tron.net",
+      "multiplier": 1.5,
+      "function_working_mechanism": "Top-weight route for mission-critical production requests."
+    }
+  ]
+}

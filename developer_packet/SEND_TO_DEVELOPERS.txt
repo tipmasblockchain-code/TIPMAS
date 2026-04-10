@@ -1,0 +1,18 @@
+Subject: BEESY Explorer Development Script - CAROLIES (CARO)
+
+Team,
+
+Please use the attached BEESY Explorer developer packet for CAROLIES.
+
+Included files:
+- BEESY_EXPLORER_CARO_DEVELOPER_BRIEF.md: Developer-facing summary and G-24C RPC table.
+- beesy_explorer_caro_config.json: Machine-readable configuration for tooling.
+
+Network constants:
+- Coin: CAROLIES (CARO)
+- Supply: 5,000,000,000 CARO
+- Chain ID: 25910
+- Network: TRON / TRC-20
+
+Regards,
+BEESY Explorer Automation
