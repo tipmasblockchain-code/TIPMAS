@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIPMAS MOL Staking</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>TIPMAS MOL Staking Dashboard</h1>
+      <p id="status">Connect your wallet to start.</p>
+
+      <section class="card">
+        <div class="row">
+          <button id="connectBtn">Connect MetaMask</button>
+          <button id="refreshBtn">Refresh</button>
+        </div>
+        <p><strong>Wallet:</strong> <span id="wallet">-</span></p>
+        <p><strong>Network:</strong> <span id="network">-</span></p>
+        <p><strong>Staking Contract:</strong> <span id="contract">-</span></p>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h2>Protocol</h2>
+          <p><strong>APR:</strong> <span id="apr">-</span></p>
+          <p><strong>Lock:</strong> <span id="lock">-</span></p>
+          <p><strong>Total Staked:</strong> <span id="totalStaked">-</span></p>
+          <p><strong>Reward Pool:</strong> <span id="rewardPool">-</span></p>
+        </div>
+        <div class="card">
+          <h2>My Position</h2>
+          <p><strong>My Stake:</strong> <span id="myStake">-</span></p>
+          <p><strong>Pending Rewards:</strong> <span id="myRewards">-</span></p>
+          <p><strong>Unlock At:</strong> <span id="unlockAt">-</span></p>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h2>Stake MOL</h2>
+          <input id="stakeAmount" type="number" min="0" step="0.0001" placeholder="Amount in MOL" />
+          <button id="stakeBtn">Stake</button>
+        </div>
+        <div class="card">
+          <h2>Unstake MOL</h2>
+          <input id="unstakeAmount" type="number" min="0" step="0.0001" placeholder="Amount in MOL" />
+          <button id="unstakeBtn">Unstake</button>
+        </div>
+        <div class="card">
+          <h2>Claim Rewards</h2>
+          <button id="claimBtn">Claim MOL Rewards</button>
+        </div>
+        <div class="card">
+          <h2>Fund Reward Pool</h2>
+          <input id="fundAmount" type="number" min="0" step="0.0001" placeholder="Amount in MOL" />
+          <button id="fundBtn">Fund Pool</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Recent Transactions</h2>
+        <ul id="txList"></ul>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

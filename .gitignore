@@ -1,0 +1,5 @@
+staking-system/node_modules/
+staking-system/.env
+staking-system/cache/
+staking-system/artifacts/
+staking-system/coverage/

@@ -206,3 +206,15 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE.txt)
 ## Contact & Support
 
 For issues, questions, or contributions, please open an issue in this repository or reach out through the official TIPMAS community channels.
+
+---
+
+## TIPMAS Staking System (MOL)
+
+A ready-to-run staking implementation is included in [`staking-system/`](./staking-system), wired to:
+
+- RPC: `https://rpc.tipmas.co`
+- Chain ID: `46498`
+- Explorer tx links: `https://explorer.tipmas.co/tx/<hash>`
+
+See [`staking-system/README.md`](./staking-system/README.md) for deployment and frontend setup instructions.
